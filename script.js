@@ -17,3 +17,11 @@ function calculate(){
         display.value = "Error";
     }
 }
+
+function deleteLast(){
+     if (display.value.length === 1) {
+        display.value = " ";
+    } else {
+        display.value = display.value.slice(0, -1);
+    }
+}
