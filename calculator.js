@@ -1,3 +1,4 @@
+// js file for calculator with out using eval() function
 // Select elements
 const display = document.querySelector("#display");
 
