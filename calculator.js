@@ -1,5 +1,6 @@
+// js file for calculator with out using eval() function
 // Select elements
-const display = document.querySelector(".display");
+const display = document.querySelector("#display");
 
 const numberButtons = document.querySelectorAll(".number");
 const operatorButtons = document.querySelectorAll(".operator");
